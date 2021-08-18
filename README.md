@@ -147,6 +147,8 @@ Ans8. by using this line of code we will able to merge const character = Object.
 
 
 
+
+
 Q9.
 const gimli =
 { name: "Gimli",
@@ -158,7 +160,8 @@ How to access and print greet function from the above object code?
 Ans9. By using this function - gimli.greet()
 Output
 "Hi, my name is Gimli!";
-we see that the string value for the object method greet() is returned.
+we see that the string value for the object method greet() is returned
+
 
 
 
@@ -166,7 +169,11 @@ we see that the string value for the object method greet() is returned.
 Q10.
 Consider below as an example of constructor function where we want name and level to be
 referred to a function itself, is below example correct or not? Please explain?
-function Hero(name, level)
+
+
+
+
+Ans10.function Hero(name, level)
 {
 name = name;
 level = level;
